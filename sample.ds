@@ -1,0 +1,6 @@
+LOAD "data.csv" INTO data;
+SUMMARY data;
+FILTER data WHERE row.age > 25 INTO filtered_data;
+GROUP data BY category INTO grouped_data;
+AGGREGATE grouped_data USING mean INTO mean_data;
+PLOT histogram OF data BINS 20;

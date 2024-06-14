@@ -1,0 +1,21 @@
+{
+  "name": "datascript",
+  "version": "1.0.0",
+  "description": "A simple data-oriented programming language",
+  "main": "datascript.js",
+  "type": "module", 
+  "scripts": {
+    "start": "node interpreter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nia-cloud-official/datascript"
+  },
+  "keywords": ["data", "interpreter", "datascript"],
+  "author": "Milton Vafana",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "plotly": "^1.0.6"
+  }
+}
