@@ -1,3 +1,9 @@
+### DataScript: A Hypothetical Data Scripting Language
+
+#### Major Use
+
+DataScript is designed for simplifying data manipulation and analysis tasks. It serves as a scripting language tailored specifically for handling various data operations efficiently.
+
 ### Basic Features and Syntax Example
 
 1. **Loading Data**
